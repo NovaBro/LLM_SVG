@@ -1,4 +1,6 @@
 env/
 dataset/
-svg-lora-checkpoints/
 =*
+secret/
+
+svg-*

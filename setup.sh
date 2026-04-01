@@ -24,9 +24,9 @@ if [ "$MODE" == 'env' ]; then
     
     pip3 install torch
     pip install -U bitsandbytes>=0.46.1
-    pip install pandas
+    pip install pandas matplotlib
     
-    pip install unsloth datasets trl transformers accelerate peft bitsandbytes pandas lxml
+    pip install unsloth datasets trl transformers accelerate peft bitsandbytes pandas lxml 
 
 elif [ "$MODE" == 'data' ]; then
     rm -rf ./dataset
